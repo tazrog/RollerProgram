@@ -1,4 +1,4 @@
-//Written by R Scharmen
+//Written by tazrog
 //C Program that rolls dice and see how long it takes to roll all matches.
 #include <stdio.h>
 #include <stdlib.h>
