@@ -1,5 +1,5 @@
 //Written by tazrog
-//C Program that rolls dice and see how long it takes to roll all matches.
+//C Program that rolls dice and see how long it takes to roll all matches of a single number.
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
