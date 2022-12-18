@@ -9,7 +9,7 @@ int main()
 {
 	start:
    	setlocale(LC_NUMERIC, "");//To place commas in the count
-	system("clear");
+	system("cls");
     short int dice, i, c, count, x, dierange, t, select, win, go, catch;
     unsigned long long int rolls, limit;
     srand(time(0));
@@ -82,7 +82,7 @@ int main()
 		}
    	}
    }
-	system("clear");
+	system("cls");
 	printf("Rolled %hd - %hd sided dice.\nMatched %hd's on the %'lluth role!\n", dice, dierange, select, rolls);
 	printf ("Rolls %'llu\n", rolls);
 	clock_t end = clock();
