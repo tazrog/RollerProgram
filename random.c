@@ -13,15 +13,7 @@ int main()
     short int dice, i, c, count, x, dierange, t, select, win, go, catch;
     unsigned long long int rolls, limit;
     srand(time(0));
-    x=0;
-    rolls=0;
-	win=0;
-	select=0;
-	go=0;
-	dierange=0;
-	dice=0;	
-	catch=0;
-	limit=10000000;
+    x=0, rolls=0, win=0, select=0, go=0, dierange=0, dice=0, catch=0, limit=10000000;
 	printf ("Welcome to Rogers random dice roller\n");
     printf("Pick the number of sides: ");
 	scanf("%hd",&dierange);
